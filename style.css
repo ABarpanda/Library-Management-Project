@@ -1,11 +1,25 @@
 
-#greetings{
+#left{
     background-color: red;
     text-align: justify;
     height: 100%;
-    width: 100%;
+    width: 49%;
+}
+#right{
+    background-color: yellow;
+    text-align: justify;
+    height: 100%;
+    width: 49%;
+    
 }
 #about{
     height: 100%;
     width: 100%;
+}
+a:link{
+    text-decoration: none;
+}
+
+#nav{
+    text-align: center;
 }
