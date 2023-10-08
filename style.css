@@ -1,23 +1,39 @@
 
 #left{
-    background-color: red;
+    background-color: #f7f583;
     text-align: justify;
     height: 100%;
-    width: 49%;
+    width: 48%;
+    padding: 10px;
+    float: left;
+    font-size: larger;
 }
 #right{
-    background-color: yellow;
-    text-align: justify;
+    background-color: aqua;
     height: 100%;
-    width: 49%;
-    
+    width: 48%;
+    padding: 10px;
+    float: left;
+}
+#intro{
+    height: 100%;
+}
+.small-image{
+    height: 50px;
+    width: 50px;
 }
 #about{
+    background-color: #f7f583;
+    text-align: justify;
     height: 100%;
     width: 100%;
+    
 }
 a:link{
-    text-decoration: none;
+    text-decoration: none
+}
+a:visited{
+    color: blue;
 }
 
 #nav{
