@@ -1,18 +1,23 @@
-
+body{
+    background-color: black;
+    color: aliceblue;
+}
 #left{
-    background-color: #f7f583;
+    background-color: #220066;
     text-align: justify;
     height: 100%;
     width: 48%;
     padding: 10px;
+    padding-top: 20px;
     float: left;
     font-size: larger;
 }
 #right{
-    background-color: aqua;
+    background-color: #003311;
     height: 100%;
     width: 48%;
     padding: 10px;
+    padding-top: 20px;
     float: left;
 }
 #intro{
@@ -23,19 +28,52 @@
     width: 50px;
 }
 #about{
-    background-color: #f7f583;
+    background-color: #220066;
     text-align: justify;
     height: 100%;
     width: 100%;
     
 }
+#nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*<span style="cursor:pointer">pointer</span><br>*/
 a:link{
-    text-decoration: none
+    text-decoration: none;
+    color: #33cc33;
 }
 a:visited{
+    color: #33cc33;
+}
+a:active{
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+}
+#buttons{
+    list-style-type: none;
+    align-content: center;
+}
+.navb{
+    align-content: center;
+    border: aliceblue;
+    border-width: 2px;
+    border-style: groove;
+    padding-right: 20px;
+}
+li a{
+    display: block;
+    float: left;
+    padding-left: 260px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+}
+/*li a {
+    display: block;
     color: blue;
-}
-
-#nav{
     text-align: center;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+  }*/
