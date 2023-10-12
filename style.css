@@ -19,6 +19,10 @@ body{
     padding: 10px;
     padding-top: 20px;
     float: left;
+    margin-left: 20px;
+}
+img{
+    border-radius: 5px;
 }
 #intro{
     height: 100%;
@@ -28,25 +32,34 @@ body{
     width: 50px;
 }
 #about{
-    background-color: #220066;
+    /*background-color: #3b064f;*/
+    background-image: linear-gradient(to bottom right, #3b064f, #220066);
+    text-align: justify;
+    height: 100%;
+    width: 98%;
+    padding: 20px;
+    font-size: larger;
+}
+#contact{
+    /*background-color: #3b064f;*/
+    background-image: linear-gradient(to bottom right, #3b064f, #220066);
     text-align: justify;
     height: 100%;
     width: 100%;
-    
+    padding: 10px;
+    margin-top: 30px;
 }
 #nav{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 a{
-    border-width: 2px;
-    border-color: aliceblue;
-    border-radius: 2px;
-}
-a:link{
     text-decoration: none;
     color: #33cc33;
-   
+    /*background-color: aqua;*/
+    border: 2px solid red;
+    padding: 10px 25px;
+    border-radius: 15px;
 }
 a:visited{
     color: #33cc33;
@@ -58,14 +71,4 @@ a:hover{
     cursor: pointer;
     font-size: 125%;
 }
-#buttons{
-    list-style-type: none;
-    align-content: center;
-}
-.navb{
-    align-content: center;
-    border: aliceblue;
-    border-width: 2px;
-    border-style: groove;
-    padding-right: 20px;
-}
+
