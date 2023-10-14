@@ -4,6 +4,7 @@ body{
 }
 #left{
     background-color: #220066;
+    background-image: linear-gradient(to bottom, #220066, #000);
     text-align: justify;
     height: 90%;
     width: 48%;
@@ -13,7 +14,7 @@ body{
     font-size: larger;
 }
 #right{
-    background-color: #003311;
+    background-color: #000;
     height: 90%;
     width: 48%;
     padding: 10px;
@@ -60,6 +61,7 @@ a{
     border: 2px solid red;
     padding: 10px 25px;
     border-radius: 15px;
+    transition-duration: 0.4s;
 }
 a:visited{
     color: #33cc33;
