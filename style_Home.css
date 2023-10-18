@@ -1,30 +1,33 @@
 body{
     background-color: black;
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #left{
     background-color: #220066;
     background-image: linear-gradient(to bottom, #220066, #000);
     text-align: justify;
     height: 90%;
-    width: 48%;
-    padding: 10px;
-    padding-top: 20px;
-    float: left;
-    font-size: larger;
-}
-#right{
-    /*background-color: #000;*/
-    background-image: linear-gradient(to bottom right, #760000, #000000);
-    height: 90%;
     width: 99%;
     padding: 10px;
     padding-top: 20px;
     float: left;
     font-size: larger;
+    letter-spacing: 0.5px;
+    line-height: 130%;
+}
+#right{
+    background-color: #000;
+    height: 90%;
+    width: 48%;
+    padding: 10px;
+    padding-top: 20px;
+    float: left;
+    margin-left: 20px;
 }
 img{
     border-radius: 5px;
+    margin: 10px;
 }
 #intro{
     height: 100%;
@@ -35,7 +38,7 @@ img{
 }
 #about{
     /*background-color: #3b064f;*/
-    background-image: linear-gradient(to bottom right, #265E00, #000000);
+    background-image: linear-gradient(to bottom right, #3b064f, #220066);
     text-align: justify;
     height: 100%;
     width: 98%;
@@ -44,21 +47,18 @@ img{
 }
 #contact{
     /*background-color: #3b064f;*/
-    background-image: linear-gradient(to bottom right, #3b064f, #000000);
+    background-image: linear-gradient(to bottom right, #3b064f, #220066);
     text-align: justify;
     height: 100%;
     width: 100%;
     padding: 10px;
     margin-top: 30px;
-    letter-spacing: 0.5px;
-    line-height: 130%;
-    font-size: 20px;
 }
 #nav{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-a{
+.links{
     text-decoration: none;
     color: #33cc33;
     /*background-color: aqua;*/
@@ -66,20 +66,18 @@ a{
     padding: 10px 25px;
     border-radius: 15px;
     transition-duration: 0.4s;
-    font-family: Arial, Helvetica, sans-serif;
 }
-a:visited{
+.links:visited{
     color: #33cc33;
 }
-a:active{
+.links:active{
     color: red;
 }
-a:hover{
+.links:hover{
     cursor: pointer;
     font-size: 125%;
 }
-#deets{
-    font-size: 25px;
-    font-family: Ubuntu, sans-serif;
-    line-height: 130%;
+#portfolio{
+    text-decoration: none;
+    color: aliceblue;
 }
