@@ -22,6 +22,8 @@ body{
     padding-top: 20px;
     float: left;
     font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 130%;
 }
 img{
     border-radius: 5px;
@@ -87,3 +89,9 @@ img{
     text-decoration: none;
     color: aliceblue;
 }
+#home{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 250px;
+  }
