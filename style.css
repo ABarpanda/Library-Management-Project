@@ -49,7 +49,7 @@ img{
     height: 100%;
     width: 100%;
     padding: 10px;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     letter-spacing: 0.5px;
     line-height: 130%;
     font-size: 20px;
@@ -58,7 +58,7 @@ img{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-a{
+.links{
     text-decoration: none;
     color: #33cc33;
     /*background-color: aqua;*/
@@ -68,13 +68,13 @@ a{
     transition-duration: 0.4s;
     font-family: Arial, Helvetica, sans-serif;
 }
-a:visited{
+.links:visited{
     color: #33cc33;
 }
-a:active{
+.links:active{
     color: red;
 }
-a:hover{
+.links:hover{
     cursor: pointer;
     font-size: 125%;
 }
@@ -82,4 +82,8 @@ a:hover{
     font-size: 25px;
     font-family: Ubuntu, sans-serif;
     line-height: 130%;
+}
+#link{
+    text-decoration: none;
+    color: aliceblue;
 }
