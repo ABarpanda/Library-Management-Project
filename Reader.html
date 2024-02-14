@@ -5,10 +5,31 @@
         </title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body style="color: black;">
         <div id="buttons">
-            <button onclick="document.getElementById('pdf').src='Books/Git Notes For Professionals.pdf'">Git book</button>
-            <button onclick="document.getElementById('pdf').src='Books/JavaScript Notes For Professionals.pdf'">JS book</button>
+            <table>
+                <tr><th>Computer Science</th><th>Novels</th></tr>
+                <tr>
+                    <td><button onclick="document.getElementById('pdf').src='Books/Git Notes For Professionals.pdf'">Git book</button></td>
+                    <td><button onclick="document.getElementById('pdf').src='Books/(Dune 1) Herbert, Brian_ Herbert, Frank - Dune.pdf'">Dune 1</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="document.getElementById('pdf').src='Books/JavaScript Notes For Professionals.pdf'">JS book</button></td>
+                    <td><button onclick="document.getElementById('pdf').src='Books/(Dune 2) Herbert, Frank - Dune Messiah.pdf'">Dune 2</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="document.getElementById('pdf').src='Books/An Introduction to Statistical Learning with Applications in Python - (Springer Texts in Statistics) Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor.pdf'">Py stats book</button></td>
+                    <td><button onclick="document.getElementById('pdf').src='Books/(Dune 3) Herbert, Frank_ Herbert, Brian - Children Of Dune.pdf'">Dune 3</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="document.getElementById('pdf').src='Books/Joel Grus - Data Science from Scratch_ First Principles with Python, Second Edition.pdf'">Data Science</button></td>
+                    <td><button onclick="document.getElementById('pdf').src='Books/(Dune 4) Herbert, Frank_ Herbert, Brian - God Emperor Of Dune.pdf'">Dune 4</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="document.getElementById('pdf').src='Books/Aurelien Geron - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow.pdf'">Hands-On ML Book</button></td>
+                    <td><button onclick="document.getElementById('pdf').src='Books/(Dune 5) Herbert, Frank_ Herbert, Brian - Heretics of Dune.pdf'">Dune 5</button></td>
+                </tr>
+            </table>
         </div>
         <embed src="" id="pdf" type="application/pdf">
     </body>
